@@ -35,6 +35,4 @@ public class Product {
         this.name = name;
         this.price = price;
     }
-
-    // 略過get與set方法
 }
