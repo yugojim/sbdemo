@@ -6,20 +6,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@SpringBootTest
-class WebApplicationTests {
-
-	@Test
-	void contextLoads() {
-	}
-
-}
-
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RestController;
-
 @RestController
-public class HelloController {
+public class WebApplicationTests {
 
 	@GetMapping("/")
 	public String index() {
