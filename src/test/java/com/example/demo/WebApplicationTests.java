@@ -15,6 +15,6 @@ class WebApplicationTests {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(MyApplication.class, args);
+        SpringApplication.run(WebApplicationTests.class, args);
     }
 }
